@@ -1,8 +1,17 @@
 .logo:hover {
   color: #404bbf;
 }
-.logo {
+.logo-title {
   color: #4d5ae5;
+  font-family: "Releway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo {
+  color: #2e2f42;
 }
 .site-nav .link:hover {
   color: #404bbf;
@@ -10,35 +19,40 @@
 .links .link:hover {
   color: #404bbf;
 }
+.links {
+  font-style: normal;
+}
 body {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: "Regular";
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
-  color: #2e2f42;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
 }
 h1 {
   font-weight: "Bold";
   font-size: 56px;
-  letter-spacing: 2%;
-  line-height: 60px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  text-align: center;
 }
 h2 {
   font-weight: "Bold";
   font-size: 36px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 h3 {
   font-weight: "Medium";
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 .footer-title {
   font-weight: "Regular";
   font-size: 12px;
   line-height: 14px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
 }
 .title {
   background-color: #2e2f42;
@@ -48,19 +62,57 @@ h3 {
   color: white;
 }
 .button {
-  font-weight: "Medium";
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 4%;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: white;
+  background-color: #4d5ae5;
 }
 button {
   background-color: #404bbf;
   cursor: pointer;
 }
-.team {
+.stuf {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.stuffing {
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.team-sect {
   background-color: #f4f4fd;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-prof {
+  background-color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.team {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.portfolio {
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 footer {
   background-color: #2e2f42;
+}
+.portfolio-service {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.portfolio-specific {
+  letter-spacing: 0.02em;
+  color: #434455;
 }
