@@ -18,12 +18,22 @@
 }
 .link {
   color: #2e2f42;
+  font-weight: 500;
 }
 .link:hover {
   color: #404bbf;
 }
+link:focus {
+  color: #404bbf;
+}
 .links {
   font-style: normal;
+}
+address .link {
+  color: #434455;
+}
+address .link:focus {
+  color: #404bbf;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -113,6 +123,8 @@ button:focus {
 .team {
   font-weight: 500;
   letter-spacing: 0.02em;
+  line-height: 1.2;
+  font-size: 20px;
 }
 .portfolio {
   line-height: 1.11;
