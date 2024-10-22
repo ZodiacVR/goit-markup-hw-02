@@ -23,7 +23,7 @@
 .link:hover {
   color: #404bbf;
 }
-link:focus {
+.link:focus {
   color: #404bbf;
 }
 .links {
